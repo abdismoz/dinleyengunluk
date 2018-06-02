@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:padding="1dp">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:textStyle="bold"
+            android:text="23:18"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:layout_gravity="center"
+            android:text="23"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:textStyle="bold"
+            android:text="ocak 2018"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:lines="3"
+        android:padding="0dp"
+        android:text="zxcvbnmöç"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp" />
+</LinearLayout>

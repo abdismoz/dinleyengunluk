@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Dinleyen Günlük</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="speech_prompt">Bir şeyler söyle;</string>
+    <string name="speech_not_supported">Cihaz desteklenmiyor</string>
+    <string name="tap_on_mic">Konuşmak için mikrofona dokunun</string>
+    <string name="ERROR_AUDIO">Ses kayıt hatası.</string>
+    <string name="ERROR_CLIENT">Tekrar deneyin..</string>
+    <string name="ERROR_INSUFFICIENT_PERMISSIONS">Gerekli yetkiler sağlanmamış.</string>
+    <string name="ERROR_NETWORK">Lütfen internet bağlantınızı kontrol ediniz.</string>
+    <string name="ERROR_NETWORK_TIMEOUT">Ağ zaman aşımı</string>
+    <string name="HOLD_BUTTON_TO_LISTEN">Kayıt için mikrofona basılı tutun.</string>
+    <string name="ERROR_NO_MATCH">Anlaşılmadı tekrar deneyin.</string>
+    <string name="ERROR_RECOGNIZER_BUSY">Servis meşgul.</string>
+    <string name="ERROR_SERVER">Sunucu hatası</string>
+    <string name="ERROR_SPEECH_TIMEOUT">Süre doldu tekrar deneyin.</string>
+    <string name="new_note">Yeni</string>
+    <string name="enc">Şifrele</string>
+    <string name="pass_req">Parolayı giriniz.</string>
+    <string name="pass2_req">Yeni parolayı giriniz.</string>
+    <string name="pass_cur">Mevcut Parola</string>
+    <string name="pass">Yeni Parola</string>
+    <string name="pass2">Yeni Parola (tekrar)</string>
+    <string name="pass_match">Parolalar uyuşmuyor!</string>
+    <string name="pass_old_false">Mevcut parola hatalı!</string>
+    <string name="save_note">Kaydet</string>
+    <string name="del_note">Sil</string>
+    <string name="cancel">İptal</string>
+    <string name="yes">Evet</string>
+    <string name="ok">Tamam</string>
+    <string name="no">Hayır</string>
+    <string name="pass_settings">Parola Ayarları</string>
+    <string name="pass_info">Günlük verilerinizi şifreleyebilmek için bir parola oluşturmalısınız.</string>
+    <string name="del_confirm">Silmek istediğinize emin misiniz?</string>
+    <string name="exit_confirm">Yaptığınız değişklikler kaybolacak. Çıkmak istediğinizden emin misiniz?</string>
+    <string name="empty"></string>
+    <string-array name="months">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </string-array>
+
+</resources>

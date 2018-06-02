@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.seffah.dinleyengnlk.view.NewNote"
+    tools:showIn="@layout/new_note">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/colorPrimary"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:weightSum="11">
+
+            <ImageButton
+                android:id="@+id/encrypt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:contentDescription="@string/enc"
+                android:scaleType="fitCenter"
+                android:src="@drawable/unlock_button" />
+
+            <ImageButton
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:contentDescription="@string/save_note"
+                android:scaleType="fitCenter"
+                android:src="@drawable/save_button" />
+
+            <ImageButton
+                android:id="@+id/del"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:contentDescription="@string/del_note"
+                android:scaleType="fitCenter"
+                android:src="@drawable/del_button" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/selection"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:progressDrawable="@drawable/seekbar_progress" />
+
+        <EditText
+            android:id="@+id/speechInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textColorHighlight="@color/selection"
+            android:ems="0"
+            android:textSelectHandle="@color/colorPrimaryDark"
+            android:inputType="textMultiLine"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="21dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

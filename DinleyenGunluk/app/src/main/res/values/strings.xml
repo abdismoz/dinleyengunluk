@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Dinleyen Günlük</string>
+    <string name="action_settings">Settings</string>
+    <string name="speech_prompt">Say Something;</string>
+    <string name="speech_not_supported">Device is not Supported</string>
+    <string name="tap_on_mic">Tap on Microfone for Make a Speech</string>
+    <string name="ERROR_AUDIO">Voice Record Error.</string>
+    <string name="ERROR_CLIENT">Please Try Again..</string>
+    <string name="ERROR_INSUFFICIENT_PERMISSIONS">Required Permissions are not Provided.</string>
+    <string name="ERROR_NETWORK">Please Check Your Internet Connection.</string>
+    <string name="ERROR_NETWORK_TIMEOUT">Network Timeout</string>
+    <string name="HOLD_BUTTON_TO_LISTEN">Hold on Microphone button to Make Record.</string>
+    <string name="ERROR_NO_MATCH">Speech is not Understood. Please Try Again.</string>
+    <string name="ERROR_RECOGNIZER_BUSY">Service is Busy.</string>
+    <string name="ERROR_SERVER">Server Error</string>
+    <string name="ERROR_SPEECH_TIMEOUT">Time is out. Try Again.</string>
+    <string name="new_note">New</string>
+    <string name="enc">Encrypt</string>
+    <string name="pass_req">Enter the Password.</string>
+    <string name="pass2_req">Enter the New Password.</string>
+    <string name="pass_cur">Current Password</string>
+    <string name="pass">New Password</string>
+    <string name="pass2">New Password (again)</string>
+    <string name="pass_match">Passwords are not Matching!</string>
+    <string name="pass_old_false">Current Password is Wrong!</string>
+    <string name="save_note">Save</string>
+    <string name="del_note">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="ok">Okey</string>
+    <string name="no">No</string>
+    <string name="pass_settings">Password Settings</string>
+    <string name="pass_info">You Should Create a Password for Being Able to Encrypt Your Diary Data.</string>
+    <string name="del_confirm">Are You Sure About Deleting?</string>
+    <string name="exit_confirm">Changes You Have Made will be Lost. Do you want to Exit?</string>
+    <string name="empty"></string>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+</resources>
